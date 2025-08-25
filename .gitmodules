@@ -19,3 +19,6 @@
 [submodule "hh_Livox-SDK"]
 	path = hh_Livox-SDK
 	url = https://github.com/alimuratov/hh_Livox-SDK
+[submodule "hh_mapviz"]
+	path = hh_mapviz
+	url = git@github.com:alimuratov/hh_mapviz.git
