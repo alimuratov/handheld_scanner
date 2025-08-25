@@ -1,0 +1,21 @@
+[submodule "hh_mvs_ros_driver"]
+	path = hh_mvs_ros_driver
+	url = https://github.com/alimuratov/hh_mvs_ros_driver
+[submodule "hh_desktop"]
+	path = hh_desktop
+	url = https://github.com/alimuratov/hh_desktop
+[submodule "hh_FAST_LIVO2"]
+	path = hh_FAST_LIVO2
+	url = https://github.com/alimuratov/hh_FAST_LIVO2
+[submodule "hh_gpsrtk"]
+	path = hh_gpsrtk
+	url = https://github.com/alimuratov/hh_gpsrtk
+[submodule "hh_driver_watchdog"]
+	path = hh_driver_watchdog
+	url = https://github.com/alimuratov/hh_driver_watchdog
+[submodule "hh_rpg_vikit"]
+	path = hh_rpg_vikit
+	url = https://github.com/alimuratov/hh_rpg_vikit
+[submodule "hh_Livox-SDK"]
+	path = hh_Livox-SDK
+	url = https://github.com/alimuratov/hh_Livox-SDK
