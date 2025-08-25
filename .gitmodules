@@ -22,3 +22,6 @@
 [submodule "hh_mapviz"]
 	path = hh_mapviz
 	url = git@github.com:alimuratov/hh_mapviz.git
+[submodule "hh_livox_ros_driver"]
+	path = hh_livox_ros_driver
+	url = git@github.com:alimuratov/hh_livox_ros_driver.git
