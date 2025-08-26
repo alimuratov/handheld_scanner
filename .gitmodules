@@ -25,3 +25,6 @@
 [submodule "hh_livox_ros_driver"]
 	path = hh_livox_ros_driver
 	url = git@github.com:alimuratov/hh_livox_ros_driver.git
+[submodule "my_data_collect"]
+	path = my_data_collect
+	url = git@github.com:ang-g-zhang/my_data_collect.git
