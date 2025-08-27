@@ -1,5 +1,8 @@
 # Handheld Scanner Project
-![Image](https://github.com/user-attachments/assets/52144c85-02dd-4625-91a6-308406e5df9d)
+
+This flowchart consist of what we have done to create the handheld scanner. It is not a comprehensive explanation of the entire system as a lot of the drivers exist and we just modify the code to accomodate to our system.
+
+![Image](https://github.com/user-attachments/assets/bf744867-0a9c-487e-a34b-5c6f75abcffc)
 
 ## Overview
 
