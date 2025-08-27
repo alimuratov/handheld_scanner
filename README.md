@@ -13,6 +13,33 @@ This repository contains the master code for the handheld scanner project. It is
 ## RQT Graph
 <img width="2523" height="1291" alt="Image" src="https://github.com/user-attachments/assets/4544b30c-d86b-4233-b2c9-ab2f868ca844" />
 
+## If need to rebuild the main workspace with fast_livo2
+To compile jetson_nano_ws with fast_livo2:
+1. **Source the lidar driver in the other workspace:**
+    ```bash
+    source ~/ws_livox/devel/setup.bash
+    ```
+    
+2. **Check if ws_livos is properly sourced:** 
+    ```bash
+    echo $CMAKE_PREFIX_PATH
+    ```
+    
+3. **Go to your main workspace:** 
+    ```bash
+    cd jetson_nano_ws/
+    ```
+    
+4. **Export Library required for FAST-LIVO2:** 
+    ```bash
+    export LD_LIBRARY_PATH=/usr/lib/aarch64-linux-gnu:$LD_LIBRARY_PATH
+    ```
+    
+5. **Build the workspace with specific opencv version:** 
+    ```bash
+    catkin_make -DOpenCV_DIR=/usr/lib/aarch64-linux-gnu/cmake/opencv4
+    ```
+
 ## Time Synchronization
 We use PTP and PPS pulse from the GPS to change the system clock to reflect true time and act as a master, so that the sensors are slaves and every device is on the same time axis. 
 IMPORTANT: Copy all the files from /etc folder to 
