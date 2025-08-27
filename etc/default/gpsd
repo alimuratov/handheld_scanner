@@ -1,0 +1,6 @@
+# Change the devices according to your setup
+DEVICES="/dev/ttyUSB0 /dev/pps1" 
+START_DAEMON="true"
+# Other options you want to pass to gpsd
+GPSD_OPTIONS="-n -G"
+USBAUTO="false"
