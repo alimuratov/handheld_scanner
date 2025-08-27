@@ -63,7 +63,7 @@ chronyc sources
 
 <img width="261" height="401" alt="Image" src="https://github.com/user-attachments/assets/b239db42-134a-4f33-a742-e40f2a28210c" />
 
-If issues arise, refer tp this [doc] (https://docs.google.com/document/d/14yA3LwMBlG3bHGAYbcdWtrMJvjfTLG2fdKhIL_YmFFI/edit?usp=sharing) for comprehensive debugging.
+If issues arise, refer to this [doc](https://docs.google.com/document/d/14yA3LwMBlG3bHGAYbcdWtrMJvjfTLG2fdKhIL_YmFFI/edit?usp=sharing) for comprehensive debugging.
 
 
 ## Future Improvements
