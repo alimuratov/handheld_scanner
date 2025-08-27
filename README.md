@@ -15,6 +15,7 @@ This repository contains the master code for the handheld scanner project. It is
 
 ## Time Synchronization
 We use PTP and PPS pulse from the GPS to change the system clock to reflect true time and act as a master, so that the sensors are slaves and every device is on the same time axis. 
+IMPORTANT: Copy all the files from /etc folder to 
 
 
 ## Future Improvements
