@@ -10,6 +10,9 @@ This repository contains the master code for the handheld scanner project. It is
 * **Main Workspace:** Contains the primary ROS packages for the handheld scanner, including the GUI and other essential nodes.
 * **Livox Workspace:** Contains the `livox_ros_driver` for the Livox LiDAR sensor.
 
+## RQT Graph
+<img width="2523" height="1291" alt="Image" src="https://github.com/user-attachments/assets/4544b30c-d86b-4233-b2c9-ab2f868ca844" />
+
 ## Future Improvements
 
 There are still many opportunities for improvement in this project. For a list of potential enhancements and future work, please refer to the following document:
