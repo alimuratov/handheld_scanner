@@ -1,5 +1,10 @@
 # Handheld Scanner Project
-![Image](https://github.com/user-attachments/assets/52144c85-02dd-4625-91a6-308406e5df9d)
+
+This flowchart consist of what we have done to create the handheld scanner. It is not a comprehensive explanation of the entire system as a lot of the drivers exist and we modify the code to accomodate to our system.
+
+![Image](https://github.com/user-attachments/assets/bf744867-0a9c-487e-a34b-5c6f75abcffc)
+
+
 
 ## Overview
 
@@ -42,7 +47,28 @@ To compile jetson_nano_ws with fast_livo2:
 
 ## Time Synchronization
 We use PTP and PPS pulse from the GPS to change the system clock to reflect true time and act as a master, so that the sensors are slaves and every device is on the same time axis. 
-IMPORTANT: Copy all the files from /etc folder to 
+IMPORTANT: Copy all the files in the /etc folder to their correct paths (not supposed to be inside handheld_scanner)
+
+1. First install gpsd and chrony
+```
+sudo apt install gpsd gpsd-clients
+sudo apt install chrony
+```
+2. Start the services
+```
+sudo systemctl start gpsd
+sudo systemctl start chrony
+```
+3. Check on status
+```
+sudo systemctl status gpsd
+sudo systemctl status chrony
+chronyc sources
+```  
+
+<img width="261" height="401" alt="Image" src="https://github.com/user-attachments/assets/b239db42-134a-4f33-a742-e40f2a28210c" />
+
+If issues arise, refer to this [doc](https://docs.google.com/document/d/14yA3LwMBlG3bHGAYbcdWtrMJvjfTLG2fdKhIL_YmFFI/edit?usp=sharing) for comprehensive debugging.
 
 
 ## Future Improvements
